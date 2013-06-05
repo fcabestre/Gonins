@@ -1,3 +1,16 @@
 body {
     padding-top: 40px;
+    position: relative;
+}
+
+section {
+    padding-top: 30px;
+}
+
+.photo-gonins  {
+    padding-top: 30px;
+}
+
+.texte-gonins  {
+    text-align: justify;
 }
