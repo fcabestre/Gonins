@@ -1,6 +1,10 @@
 body {
-    padding-top: 40px;
+    padding-top: 60px;
     position: relative;
+}
+
+h1 {
+    padding-bottom: 30px;
 }
 
 .photo-gonins  {
@@ -13,4 +17,8 @@ body {
 
 .fused-cal-cell {
     text-align: center;
+}
+
+thead {
+    background-color: #EEEEEE
 }
