@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app>
   <head>
     <title>Site des Gonin Boys</title>
     <meta charset="utf-8">
@@ -8,7 +8,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/gonins.css" rel="stylesheet">
   </head>
-  <body>
+  <body ng-controller="ListeDesMatchs">
 
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
@@ -41,136 +41,21 @@
 		</tr>
 	      </thead>
 	      <tbody>
-		<tr>
-		  <td>27 septembre 2012</td>
-		  <td>FREE MEN'S</td>
-		  <td>Freescale</td>
-		</tr>
-		<tr>
-		  <td>5 octobre 2012</td>
-		  <td>LOS PAGALHOS</td>
-		  <td>Carbonne</td>
-		</tr>
-		<tr>
-		  <td>19 octobre 2012</td>
-		  <td>AJAJA TOURNEFEUILLE</td>
-		  <td>Tournefeuille</td>
-		</tr>
-		<tr>
-		  <td>24 octobre 2012</td>
-		  <td>ASTROVALES</td>
-		  <td>Montaudran</td>
-		</tr>
-		<tr>
-		  <td>16 novembre 2012</td>
-		  <td>MEILLEURS METRO GOLDWIN</td>
-		  <td>À définir</td>
-		</tr>
-		<tr>
-		  <td>21 novembre 2012</td>
-		  <td>ACTIA</td>
-		  <td>Montaudran</td>
-		</tr>
-		<tr>
-		  <td>30 novembre 2012</td>
-		  <td>CHAPAIROS </td>
-		  <td>Castanet</td>
-		</tr>
-		<tr>
-		  <td>7 décembre 2012</td>
-		  <td>LAUNAGUET</td>
-		  <td>Launaguet</td>
-		</tr>
-		<tr>
-		  <td>12 décembre 2012</td>
-		  <td>AMIS MIDI PYRENEES</td>
-		  <td>Montaudran</td>
-		</tr>
-		<tr class="success">
-		  <td>19 Décembre 2012</td>
-		  <td colspan="2"><div class="fused-cal-cell">REPAS DE FIN D'ANNEE</div></td>
-		</tr>
-		<tr>
-		  <td>18 janvier 2013</td>
-		  <td>TOUWIN</td>
-		  <td>À définir</td>
-		</tr>
-		<tr class="success">
-		  <td>26 & 27 Janvier 2013</td>
-		  <td colspan="2"><div class="fused-cal-cell">MONTS D'OLMES</div></td>
-		</tr>
-		<tr>
-		  <td>8 février 2013</td>
-		  <td>LOS PEDROS</td>
-		  <td>Fonsegrives</td>
-		</tr>
-		<tr>
-		  <td>20 février 2013</td>
-		  <td>LA DEPECHE</td>
-		  <td>Montaudran</td>
-		</tr>
-		<tr>
-		  <td>15 mars 2013</td>
-		  <td>LES MUSQUETS </td>
-		  <td>ST SULPICE / LEZE</td>
-		</tr>
-		<tr>
-		  <td>22 mars 2013</td>
-		  <td>LES BOUDUCONS</td>
-		  <td>Fenouillet</td>
-		</tr>
-		<tr>
-		  <td>5 avril 2013</td>
-		  <td>LAUNAGUET</td>
-		  <td>Launaguet</td>
-		</tr>
-		<tr>
-		  <td>10 avril 2013</td>
-		  <td>LE CAGIRE ASPET </td>
-		  <td>Montaudran</td>
-		</tr>
-		<tr>
-		  <td>19 avril 2013</td>
-		  <td>TOUWIN</td>
-		  <td>À définir</td>
-		</tr>
-		<tr class="success">
-		  <td>27 avril au 4 mai 2013</td>
-		  <td colspan="2"><div class="fused-cal-cell">Voyage MAJORQUE</div></td>
-		</tr>
-		<tr>
-		  <td>24 mai 2013</td>
-		  <td>ALL WINES</td>
-		  <td>ARGOULET</td>
-		</tr>
-		<tr>
-		  <td>30 et 30 mai 2013</td>
-		  <td>FESTOVAL Touch'Rugby</td>
-		  <td>Place du Capitole</td>
-		</tr>
-		<tr>
-		  <td>4 juin 2013</td>
-		  <td>ARLE XV</td>
-		  <td>TOAC</td>
-		</tr>
-		<tr>
-		  <td>12 juin 2013 </td>
-		  <td colspan="2"><div class="fused-cal-cell">À définir</div></td>
-		</tr>
-		<tr>
-		  <td>19 juin 2013 </td>
-		  <td colspan="2"><div class="fused-cal-cell">À définir</div></td>
+		<tr ng-repeat="match in matchs">
+		  <td>{{match.date}}</td>
+		  <td>{{match.equipe}}</td>
+		  <td>{{match.stade}}</td>
 		</tr>
 	      </tbody>
 	    </table>
 	  </div>
-	  
 	</div>
       </section> <!-- calendrier -->
     </div> <!-- container -->
-    <script src="js/jquery-1.9.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/gonins.js"></script>    
   </body>
 </html>
 
