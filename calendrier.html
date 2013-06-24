@@ -1,61 +1,72 @@
 <!DOCTYPE html>
 <html ng-app>
-  <head>
+<head>
     <title>Site des Gonin Boys</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/assets/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/gonins.css" rel="stylesheet">
-  </head>
-  <body ng-controller="ListeDesMatchs">
+</head>
+<body ng-controller="ListeDesMatchs">
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-	<div class="container">
-	  <a class="brand" href="gonins.html">Gonin Boys</a>
-	  <ul class="nav">
-	    <li><a href="calendrier.html">Calendrier</a></li>
-	    <li><a href="galerie.html">Galerie</a></li>
-	    <li><a href="contact.html">Contact</a></li>
-	  </ul>
-    	</div>
-      </div>
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="brand" href="gonins.html">Gonin Boys</a>
+            <ul class="nav">
+                <li><a href="calendrier.html">Calendrier</a></li>
+                <li class="dropdown">
+                    <a href="galerie-carousel.html" class="dropdown-toggle" data-toggle="dropdown">
+                        Galerie
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="galerie-carousel.html">Carousel</a></li>
+                        <li><a href="galerie-vignettes.html">Vignettes</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
     </div>
+</div>
 
-    <div class="container">
-      
-      <section id="calendrier">
-	<div class="row">
-	  <div class="span4"><h1>Calendrier</h1></div>
-	</div>
-	
-	<div class="row">
-	  <div class="span10 offset2">
-	    <table class="table table-bordered table-condensed">
-	      <thead>
-		<tr>
-		  <th>Date</th>
-		  <th>Équipe</th>
-		  <th>Stade</th>
-		</tr>
-	      </thead>
-	      <tbody>
-		<tr ng-repeat="match in matchs">
-		  <td>{{match.date}}</td>
-		  <td>{{match.equipe}}</td>
-		  <td>{{match.stade}}</td>
-		</tr>
-	      </tbody>
-	    </table>
-	  </div>
-	</div>
-      </section> <!-- calendrier -->
-    </div> <!-- container -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/angular.min.js"></script>
-    <script src="js/gonins.js"></script>    
-  </body>
+<div class="container">
+
+    <section id="calendrier">
+        <div class="row">
+            <div class="span4"><h1>Calendrier</h1></div>
+        </div>
+
+        <div class="row">
+            <div class="span10 offset2">
+                <table class="table table-bordered table-condensed">
+                    <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Équipe</th>
+                        <th>Stade</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="match in matchs">
+                        <td>{{match.date}}</td>
+                        <td>{{match.equipe}}</td>
+                        <td>{{match.stade}}</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- calendrier -->
+</div>
+<!-- container -->
+<script src="js/assets/bootstrap.min.js" type="application/javascript"></script>
+<script src="js/assets/jquery.min.js" type="application/javascript"></script>
+<script src="js/assets/angular.min.js" type="application/javascript"></script>
+<script src="js/gonins.js" type="application/javascript"></script>
+</body>
 </html>
 
