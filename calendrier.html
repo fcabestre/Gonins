@@ -9,7 +9,7 @@
     <link href="css/assets/font-awesome.min.css" rel="stylesheet">
     <link href="css/gonins.css" rel="stylesheet">
 </head>
-<body ng-controller="ListeDesMatchs">
+<body>
 
 <gmenu></gmenu>
 
@@ -30,7 +30,7 @@
                         <th>Stade</th>
                     </tr>
                     </thead>
-                    <tbody>
+                    <tbody ng-controller="ListeDesMatchs">
                     <tr ng-repeat="match in matchs">
                         <td>{{match.date}}</td>
                         <td>{{match.equipe}}</td>
@@ -43,12 +43,12 @@
     </section>
     <!-- calendrier -->
 </div>
+
 <!-- container -->
 <script src="js/assets/bootstrap.min.js" type="application/javascript"></script>
 <script src="js/assets/jquery.min.js" type="application/javascript"></script>
 <script src="js/assets/angular.min.js"></script>
 <script src="js/components.js"></script>
-<!--<script src="js/gonins.js" type="application/javascript"></script>-->
 </body>
 </html>
 

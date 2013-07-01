@@ -26,12 +26,20 @@
                     gambadent joyeusement à la poursuite d’un ballon ovale, sur un terrain coincé quelque part entre les
                     immeubles de Montaudran, ça a quelque chose de… je ne sais pas.
 
-                <p>Couillon, peut-être.
+                <p><a href="#" rel="popover" class="popable"
+                      data-content="(Quand on divise l’équipe en deux groupes à l’entraînement)
+                      <p>- Tiens, on a encore mis tous les cons du même côté.
+                      <p>- Lequel ?
+                      <p>- Ah non, c’est les deux, finalement."
+                      title="Brève de Gonin">Couillon</a>, peut-être.
 
                 <p>Mais de ce genre de couillonnerie qui force le respect.
 
                 <p>Ça fait plus de 25 ans que le club existe avec le même noyau, le même mot d’ordre, le même esprit :
-                    se faire plaisir. Et se faire plaisir, comme le dit Tix-l’entraîneur, ça veut aussi dire courir,
+                    se faire plaisir. Et se faire plaisir, comme le dit <a href="#" rel="popover" class="popable"
+                                                                           data-content="Putain, ça fait une heure que le coach nous fait courir… L’USAP a perdu ou quoi ?"
+                                                                           title="Brève de Gonin">Tix-l’entraîneur</a>,
+                    ça veut aussi dire courir,
                     souffler, souffrir, soutenir, tenir, continuer. Ça veut dire jouer au rugby – ce sport étrange,
                     quelque part entre guerre des clans et partie d’échec à grands coups de mêlées, qui apprend d’abord
                     à respecter l’adversaire pour mieux se respecter soi.
@@ -43,12 +51,9 @@
                 <p>Deux entraînements par semaine, une quinzaine de matches dans l’année ; un week-end ski annuel,
                     quelques bons gueuletons et autres festivités ; et, tous les deux ans, une tournée internationale
                     (bon, d’accord, un voyage) : les
-                    <a href="#" data-toggle="popover"
-                       data-placement="top"
+                    <a href="#" rel="popover" class="popable"
                        data-content="Il n’y a pas de match amical ! (à prononcer de préférence en cassant une porte)"
-                       title="Brève de Gonin">Gonins
-                    </a>
-                    , c’est à la fois un club, un groupe de copains et une
+                       title="Brève de Gonin">Gonins</a>, c’est à la fois un club, un groupe de copains et une
                     famille.
 
                 <p>Pour en savoir plus, il faut nous rencontrer. Sur le terrain, évidemment.
@@ -70,7 +75,11 @@
 <script src="js/assets/bootstrap.min.js"></script>
 <script src="js/assets/angular.min.js"></script>
 <script src="js/components.js"></script>
-
+<script>
+    $(function () {
+        $(".popable").popover({trigger:'hover', placement:'top', html:'true'});
+    });
+</script>
 </body>
 </html>
 
