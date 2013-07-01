@@ -1,37 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="components">
 <head>
     <title>Site des Gonin Boys</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="css/assets/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/assets/font-awesome.min.css" rel="stylesheet">
     <link href="css/gonins.css" rel="stylesheet">
 </head>
 <body>
 
-<div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-inner">
-        <div class="container">
-            <a class="brand" href="gonins.html">Gonin'Boys</a>
-            <ul class="nav">
-                <li><a href="calendrier.html">Calendrier</a></li>
-                <li class="dropdown">
-                    <a href="galerie-carousel.html" class="dropdown-toggle" data-toggle="dropdown">
-                        Galerie
-                        <b class="caret"></b>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="galerie-carousel.html">Carousel</a></li>
-                        <li><a href="galerie-vignettes.html">Vignettes</a></li>
-                    </ul>
-                </li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-- navbar -->
+<gmenu></gmenu>
 
 <div class="container">
 
@@ -88,6 +68,8 @@
 
 <script src="js/assets/jquery.min.js"></script>
 <script src="js/assets/bootstrap.min.js"></script>
+<script src="js/assets/angular.min.js"></script>
+<script src="js/components.js"></script>
 
 </body>
 </html>
