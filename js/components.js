@@ -1,39 +1,27 @@
-angular.module('components', []).
-    directive('gmenu', function () {
-        return {
-            restrict:'E',
-            transclude:true,
-            scope:{},
-            replace:true,
-            template:
-                '<div class="navbar navbar-inverse navbar-fixed-top">' +
-                      '<div class="navbar-inner">' +
-                            '<div class="container">' +
-                                  '<a class="brand" href="gonins.html">Gonin\'Boys </a>' +
-                                  '<ul class="nav">' +
-                                       '<li><a href="calendrier.html">Calendrier</a></li>' +
-                                       '<li class="dropdown">' +
-                                            '<a href="galerie-carousel.html" class="dropdown-toggle" data-toggle="dropdown">' +
-                                                'Galerie' +
-                                                '<b class="caret"></b>' +
-                                            '</a>' +
-                                            '<ul class="dropdown-menu">' +
-                                                 '<li><a href="galerie-carousel.html">Carousel</a></li>' +
-                                                 '<li><a href="galerie-vignettes.html">Vignettes</a></li>' +
-                                            '</ul>' +
-                                       '</li>' +
-                                       '<li><a href="contact.html">Contact</a></li>' +
-                                  '</ul>' +
-                            '</div>' +
-                      '</div>' +
-                '</div>'
-        };
-    });
+var m = angular.module('components', []);
 
-function ListeDesMatchs($scope, $http) {
+m.config(['$routeProvider', function ($routeProvider) {
+    $routeProvider.
+        when('/gonins', {templateUrl:'gonins.html', controller:GoninsCtrl}).
+        when('/calendrier', {templateUrl:'calendrier.html', controller:CalendrierCtrl}).
+        when('/galerie', {templateUrl:'galerie.html', controller:GalerieCtrl}).
+        when('/contact', {templateUrl:'contact.html', controller:ContactCtrl}).
+        otherwise({redirectTo:'/gonins'});
+}]);
+
+function GoninsCtrl($scope, $http) {
+}
+
+function CalendrierCtrl($scope, $http) {
     $http.get('data/matchs.json').success(function (data, status) {
         $scope.matchs = data;
     });
+}
+
+function GalerieCtrl($scope, $http) {
+}
+
+function ContactCtrl($scope, $http) {
 }
 
 
