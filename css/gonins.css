@@ -21,3 +21,16 @@ thead {
     background-color: #EEEEEE
 }
 
+.galery-modal-body {
+    max-height: 1024px;
+}
+
+.galery-modal {
+    width: 970px;
+    margin-left: -485px;
+}
+
+.galery-thumbnail {
+    padding-bottom: 3px;
+}
+

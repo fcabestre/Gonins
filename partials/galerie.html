@@ -5,10 +5,27 @@
 <div class="row">
     <ul class="thumbnails">
         <li class="span4">
-            <a href="#1" class="thumbnail">
-                <img src="img/1-300x225.png" alt="">
-            </a>
+            <div class="thumbnail">
+                <img class="galery-thumbnail" src="img/1-300x225.png" alt="">
+                <button class="btn btn-mini btn-primary" type="button" data-toggle="modal" data-target="#1"><i class="icon-resize-full"></i></button> Malte 2010 avec les "Marauders"
+            </div>
         </li>
+        <div id="1" class="modal hide fade galery-modal" data-keyboard="true">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
+                <h3>Malte 2010 avec les "Marauders"</h3>
+            </div>
+            <div class="modal-body galery-modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="span12">
+                            <img src="img/1.png" class="img-polaroid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <li class="span4">
             <a href="2.png" class="thumbnail">
                 <img src="img/2-300x225.png" alt="">
@@ -20,17 +37,6 @@
             </a>
         </li>
     </ul>
-</div>
-
-<div id="1" class="modal hide fade">
-    <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-    </div>
-    <div class="modal-body">
-        <img src="1.png" alt="">
-    </div>
-    <div class="modal-footer">
-    </div>
 </div>
 
 <div class="row">
