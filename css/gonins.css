@@ -1,4 +1,6 @@
 body {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 16px;
     padding-top: 50px;
     position: relative;
 }
@@ -15,10 +17,7 @@ h1 {
     text-align: justify;
 }
 
-.fused-cal-cell {
-    text-align: center;
-}
-
 thead {
     background-color: #EEEEEE
 }
+
