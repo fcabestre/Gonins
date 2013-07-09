@@ -1,14 +1,15 @@
-goninsModule.directive('gModal', function () {
+goninsModule.directive('goThumbnail', function () {
         return {
             restrict:'ACEM',
             replace:true,
+            transclude: true,
             scope:{
                 title:'@title',
                 index:'@index',
                 image:'@image',
                 thumb:'@thumb'
             },
-            templateUrl:'partials/gModalTemplate.html'
+            templateUrl:'partials/goThumbnailTpl.html'
         }
     }
 );
