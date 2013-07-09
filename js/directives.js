@@ -1,6 +1,6 @@
 goninsModule.directive('goThumbnail', function () {
         return {
-            restrict:'ACEM',
+            restrict:'C',
             replace:true,
             transclude: true,
             scope:{
