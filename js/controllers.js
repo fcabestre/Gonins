@@ -3,8 +3,8 @@ var controllers = {};
 controllers.GoninsCtrl = function ($scope) {
 };
 
-controllers.CalendrierCtrl = function ($scope, $http) {
-    $http.get('data/matchs.json').success(function (data, status) {
+controllers.CalendrierCtrl = function ($scope, dataFactory) {
+    dataFactory.getMatches(function(data) {
         $scope.matchs = data;
     });
 };
