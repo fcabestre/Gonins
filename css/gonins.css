@@ -34,8 +34,7 @@ thead {
     font-size: 8em;
     position:absolute;
     bottom:20px;
-    /*color: #999999;*/
-    color: #08c;
+    color: rgba(97, 174, 97, 0.99);
 }
 
 .navbar .nav>li>a {
