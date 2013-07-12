@@ -18,7 +18,7 @@ body {
 }
 
 thead {
-    background-color: #EEEEEE
+    background-color: #EEEEEE;
 }
 
 .galery-modal-body {
@@ -28,5 +28,12 @@ thead {
 .galery-modal {
     width: 960px;
     margin-left: -480px;
+}
+
+.icon-calendar {
+    font-size: 8em;
+    position:absolute;
+    bottom:20px;
+    color: #999999;
 }
 
