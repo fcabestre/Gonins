@@ -5,9 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
-    <link href="css/assets/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/assets/bootstrap.min.css" media="screen" rel="stylesheet">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Istok+Web' type='text/css' rel='stylesheet'>
+    <link href="css/assets/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" rel="stylesheet" />
     <link href="css/gonins.css" rel="stylesheet">
 </head>
 <body>
@@ -36,7 +37,12 @@
 <script src="js/directives.js"></script>
 <script src="js/controllers.js"></script>
 <script src="js/factories.js"></script>
-
+<script src="js/assets/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".fancybox").fancybox();
+    });
+</script>
 </body>
 </html>
 

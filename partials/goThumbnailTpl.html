@@ -1,22 +1,5 @@
-<div>
-    <li class="span4">
-        <a class="thumbnail" href="">
-            <img ng-src="{{thumb}}" alt="" data-toggle="modal" data-target="#{{index}}">
-        </a>
-    </li>
-    <div id="{{index}}" class="modal hide fade galery-modal" data-keyboard="true">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
-            <h4>{{title}}</h4>
-        </div>
-        <div class="modal-body galery-modal-body">
-            <div class="container">
-                <div class="row">
-                    <div class="span12">
-                        <img src="{{image}}" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<li class="span4">
+    <a class="thumbnail fancybox" rel="gallery" href="{{image}}" title="{{title}}">
+        <img ng-src="{{thumb}}" alt="">
+    </a>
+</li>
