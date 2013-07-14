@@ -5,20 +5,20 @@ body {
     position: relative;
 }
 
-.photo-gonins {
+#main-photo {
     padding-top: 20px;
 }
 
-.texte-gonins {
+#main-text {
     text-align: justify;
+}
+
+#calendar-head {
+    background-color: #EEEEEE;
 }
 
 .thumbnails {
     margin-left: 0;
-}
-
-thead {
-    background-color: #EEEEEE;
 }
 
 .galery-modal-body {
@@ -30,14 +30,12 @@ thead {
     margin-left: -480px;
 }
 
-.icon-calendar {
-    font-size: 8em;
-    position:absolute;
-    bottom:20px;
-    color: rgba(97, 174, 97, 0.99);
+#map {
+    border: 1px solid #000000;
 }
-
-.navbar .nav>li>a {
-    padding-right: 0px;
+#map-zoom-button {
+    position: relative;
+    left: 10px;
+    top: -40px;
 }
 
