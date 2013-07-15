@@ -5,7 +5,7 @@ goninsModule.directive('goThumbnail', function () {
             transclude: true,
             scope:{
                 title:'@title',
-                index:'@index',
+                span:'@span',
                 image:'@image',
                 thumb:'@thumb'
             },
