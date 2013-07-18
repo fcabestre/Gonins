@@ -11,7 +11,7 @@
     <link href="css/assets/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" rel="stylesheet" />
     <link href="css/gonins.css" rel="stylesheet">
     <!--[if lte IE 8]>
-    <script src="js/assets/json3.min.js">
+    <script type="text/javascript" src="js/assets/json3.min.js">
         document.createElement('ng-include');
         document.createElement('ng-pluralize');
         document.createElement('ng-view');
@@ -32,16 +32,17 @@
         ga('send', 'pageview');
     </script>
 </head>
-<body>
+<body data-ng-controller="NavbarCtrl">
 
 <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="navbar-inner">
         <div class="container">
-            <a class="brand" href="#/gonins">Vestiaire</a>
+            <!--<a class="brand" href="#/gonins">Gonin'Boys</a>-->
             <ul class="nav">
-                <li><a href="#/calendrier">Calendrier</a></li>
-                <li><a href="#/galerie">Photos</a></li>
-                <li><a href="#/contact">Contact</a></li>
+                <li class="{{gonins}}"><a id="brand" class="brand" href="#/gonins">Vestiaire</a></li>
+                <li class="{{calendrier}}"><a href="#/calendrier">Calendrier</a></li>
+                <li class="{{galerie}}"><a href="#/galerie">Photos</a></li>
+                <li class="{{contact}}"><a href="#/contact">Contact</a></li>
             </ul>
         </div>
     </div>
