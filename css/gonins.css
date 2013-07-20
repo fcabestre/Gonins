@@ -37,9 +37,21 @@ body {
 #map {
     border: 1px solid #000000;
 }
+
 #map-zoom-button {
     position: relative;
     left: 10px;
     top: -40px;
 }
 
+#mascot {
+    position: absolute;
+}
+
+#hot-border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 5px;
+}

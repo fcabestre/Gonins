@@ -1,12 +1,21 @@
 var controllers = {};
 
-controllers.NavbarCtrl = function ($scope, $log) {
+controllers.NavbarCtrl = function ($scope) {
     $scope.$on('view', function(event, isActive) {
-        $log.info(isActive);
         var tmp = ['','','',''];
         tmp[isActive] = 'active';
         $scope.isActive = tmp;
     });
+    $scope.mascot = function() {
+        var mascot = $('#mascot');
+        mascot.css('top', -231).css('left', 30);
+        mascot.show();
+        mascot.animate({
+            top: '300px'
+        }, 10000, function(){
+            mascot.fadeOut();
+        });
+    }
 };
 
 controllers.GoninsCtrl = function ($scope) {
