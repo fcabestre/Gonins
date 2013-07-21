@@ -10,10 +10,10 @@ controllers.NavbarCtrl = function ($scope) {
         var mascot = $('#mascot');
         mascot.css('top', -231).css('left', 30);
         mascot.show();
-        mascot.animate({
+        mascot.stop().animate({
             top: '300px'
         }, 10000, function(){
-            mascot.fadeOut();
+            mascot.animate({left: '-256px'});
         });
     }
 };

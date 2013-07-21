@@ -1,6 +1,6 @@
 body {
     font-family: 'Istok Web', sans-serif;
-    font-size: 16px;
+    font-size: 105%;
     padding-top: 50px;
     position: relative;
 }
@@ -17,6 +17,9 @@ body {
     text-align: justify;
 }
 
+#calendar {
+    margin-top: 20px;
+}
 #calendar-head {
     background-color: #EEEEEE;
 }
