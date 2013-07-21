@@ -8,7 +8,7 @@ controllers.NavbarCtrl = function ($scope) {
     });
     $scope.mascot = function() {
         var mascot = $('#mascot');
-        mascot.css('top', -231).css('left', 30);
+        mascot.css('top', -231).css('left', 30).css('visibility', 'visible');
         mascot.show();
         mascot.stop().animate({
             top: '300px'
