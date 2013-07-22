@@ -8,10 +8,12 @@ controllers.NavbarCtrl = function ($scope) {
     });
     $scope.mascot = function() {
         var mascot = $('#mascot');
+        var wiewportHeigth = $(window).height();
         mascot.css('top', -231).css('left', 30).css('visibility', 'visible');
         mascot.show();
+        var delta = (wiewportHeigth - 250) + 'px';
         mascot.stop().animate({
-            top: '300px'
+            top: delta
         }, 10000, function(){
             mascot.animate({left: '-256px'});
         });
