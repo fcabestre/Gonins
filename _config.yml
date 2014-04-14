@@ -1,3 +1,6 @@
-name: Your New Jekyll Site
+name: Site des Gonin's Boys
 markdown: redcarpet
 pygments: true
+encoding: utf-8
+timezone: Europe/Paris
+exclude: ['old']
