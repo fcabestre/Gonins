@@ -2,31 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08e56c51-1d65-4e3e-bc0a-5ce15ce2ff1f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/1-300x225.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/2-300x225.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/3-300x225.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/4-300x225.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/5-300x225.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/6-300x225.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/7-300x200.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/8-300x169.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Gonins.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Porte.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Pre.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Terrain-930x224.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Terrain.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/mascotte.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_layouts/gonins.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/assets/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/assets/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/gonins.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/assets/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/assets/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site.iml" afterPath="$PROJECT_DIR$/Site.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="Site.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/matchs.json" changelist="08e56c51-1d65-4e3e-bc0a-5ce15ce2ff1f" time="1378920102273" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Play/Alejm/public/stylesheets/main.css" changelist="08e56c51-1d65-4e3e-bc0a-5ce15ce2ff1f" time="1374690235957" ignored="false" />
-    <file path="/alejm.html" changelist="08e56c51-1d65-4e3e-bc0a-5ce15ce2ff1f" time="1374690182980" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Play/Alejm/public/partials/alejm.html" changelist="08e56c51-1d65-4e3e-bc0a-5ce15ce2ff1f" time="1374690182980" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Play/Alejm/target/scala-2.10/src_managed/main/routes_routing.scala" changelist="08e56c51-1d65-4e3e-bc0a-5ce15ce2ff1f" time="1374689327018" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Play/Alejm/target/scala-2.10/src_managed/main/routes_reverseRouting.scala" changelist="08e56c51-1d65-4e3e-bc0a-5ce15ce2ff1f" time="1374689327018" ignored="false" />
-    <file path="/routes" changelist="08e56c51-1d65-4e3e-bc0a-5ce15ce2ff1f" time="1374687492699" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Play/Alejm/conf/routes" changelist="08e56c51-1d65-4e3e-bc0a-5ce15ce2ff1f" time="1374689212036" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Play/Alejm/target/scala-2.10/src_managed/main/views/html/index.template.scala" changelist="08e56c51-1d65-4e3e-bc0a-5ce15ce2ff1f" time="1374690165823" ignored="false" />
-    <file path="/routes.js" changelist="08e56c51-1d65-4e3e-bc0a-5ce15ce2ff1f" time="1374689231237" ignored="false" />
-    <file path="/controllers.js" changelist="08e56c51-1d65-4e3e-bc0a-5ce15ce2ff1f" time="1374686863516" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Play/Alejm/public/javascripts/controllers.js" changelist="08e56c51-1d65-4e3e-bc0a-5ce15ce2ff1f" time="1374686864554" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Play/Alejm/public/javascripts/routes.js" changelist="08e56c51-1d65-4e3e-bc0a-5ce15ce2ff1f" time="1374689502043" ignored="false" />
-    <file path="/index.html" changelist="08e56c51-1d65-4e3e-bc0a-5ce15ce2ff1f" time="1374686491466" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Play/Alejm/logs/application.log" changelist="08e56c51-1d65-4e3e-bc0a-5ce15ce2ff1f" time="1374690165823" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Play/Alejm/app/controllers/Application.scala" changelist="08e56c51-1d65-4e3e-bc0a-5ce15ce2ff1f" time="1374686061691" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Play/Alejm/.idea/workspace.xml" changelist="08e56c51-1d65-4e3e-bc0a-5ce15ce2ff1f" time="1374690882095" ignored="false" />
-    <file path="/index.scala.html" changelist="08e56c51-1d65-4e3e-bc0a-5ce15ce2ff1f" time="1374686894907" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Play/Alejm/app/views/index.scala.html" changelist="08e56c51-1d65-4e3e-bc0a-5ce15ce2ff1f" time="1374689963935" ignored="false" />
-    <file path="/Dummy.txt" changelist="08e56c51-1d65-4e3e-bc0a-5ce15ce2ff1f" time="1378918634636" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +65,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" />
     <breakpoint_any default_suspend_policy="SuspendAll">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -74,6 +97,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -83,19 +107,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="bootstrap.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/assets/bootstrap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="291" selection-end="291" vertical-scroll-proportion="-7.5">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/assets/jquery.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/old/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="32" selection-start="0" selection-end="2885" vertical-scroll-proportion="-11.166667">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="gonins.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_layouts/gonins.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="2" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0">
+            <state line="40" column="56" selection-start="1564" selection-end="1564" vertical-scroll-proportion="0.70422536">
               <folding />
             </state>
           </provider>
@@ -104,34 +150,32 @@
       <file leaf-file-name="_config.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
+            <state line="5" column="41" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="26" column="69" selection-start="1043" selection-end="1043" vertical-scroll-proportion="-5.2702703">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="syntax.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/syntax.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
+      <file leaf-file-name="8.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/8.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014-04-13-welcome-to-jekyll.markdown" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2014-04-13-welcome-to-jekyll.markdown">
+      <file leaf-file-name="gonins.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/old/partials/gonins.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="44" column="25" selection-start="0" selection-end="2045" vertical-scroll-proportion="-27.5">
               <folding />
             </state>
           </provider>
@@ -140,7 +184,7 @@
       <file leaf-file-name="default.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="23" column="0" selection-start="630" selection-end="654" vertical-scroll-proportion="-14.375">
               <folding />
             </state>
           </provider>
@@ -150,15 +194,6 @@
         <entry file="file://$PROJECT_DIR$/_layouts/post.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -177,8 +212,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/js/directives.js" />
-        <option value="$PROJECT_DIR$/partials/galerie.html" />
         <option value="$PROJECT_DIR$/js/assets/angular.min.js" />
         <option value="$PROJECT_DIR$/partials/goThumbnailTpl.html" />
         <option value="$PROJECT_DIR$/partials/gonins.html" />
@@ -189,10 +222,12 @@
         <option value="$PROJECT_DIR$/js/controllers.js" />
         <option value="$PROJECT_DIR$/css/gonins.css" />
         <option value="$PROJECT_DIR$/js/factories.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/data/matchs.json" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/old/index.html" />
+        <option value="$PROJECT_DIR$/_layouts/gonins.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -228,6 +263,13 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files" />
+        <subPane subId="All" />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -256,37 +298,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="_layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="All" />
-      </pane>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="160" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="170" />
     <property name="project.structure.proportion" value="0.15" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="170" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="160" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$USER_HOME$/AngularJSDemos/app/controllers" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="175" />
@@ -307,20 +353,24 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="reference.settings.ide.settings.spelling" />
-    <property name="DefaultHtmlFileTemplate" value="Html" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="Html" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/old/css" />
+      <recent name="$PROJECT_DIR$/js/assets/boostrap" />
+      <recent name="$PROJECT_DIR$/css/assets/boostrap" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/views" />
-      <recent name="$PROJECT_DIR$/img/assets" />
       <recent name="$PROJECT_DIR$/js/assets" />
       <recent name="$PROJECT_DIR$/css/assets" />
+      <recent name="$PROJECT_DIR$/views" />
+      <recent name="$PROJECT_DIR$/img/assets" />
       <recent name="$PROJECT_DIR$/assets/css" />
     </key>
   </component>
@@ -375,6 +425,17 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -418,7 +479,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-6" width="1617" height="1058" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -432,16 +493,25 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24952137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2425016" sideWeight="0.6714761" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24186343" sideWeight="0.6714761" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32967034" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -498,37 +568,97 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="291" selection-end="291" vertical-scroll-proportion="-7.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/bootstrap/css/bootstrap-theme.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/bootstrap/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old/css/gonins.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/syntax.css">
+    <entry file="file://$PROJECT_DIR$/css/gonins.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2014-04-13-welcome-to-jekyll.markdown">
+    <entry file="file://$PROJECT_DIR$/css/assets/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/assets/bootstrap-theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/assets/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/assets/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="41" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old/partials/gonins.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="25" selection-start="0" selection-end="2045" vertical-scroll-proportion="-27.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="32" selection-start="0" selection-end="2885" vertical-scroll-proportion="-11.166667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/8.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="630" selection-end="654" vertical-scroll-proportion="-14.375">
           <folding />
         </state>
       </provider>
@@ -540,23 +670,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
+        <state line="26" column="69" selection-start="1043" selection-end="1043" vertical-scroll-proportion="-5.2702703">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+    <entry file="file://$PROJECT_DIR$/_layouts/gonins.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="2" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0">
+        <state line="40" column="56" selection-start="1564" selection-end="1564" vertical-scroll-proportion="0.70422536">
           <folding />
         </state>
       </provider>

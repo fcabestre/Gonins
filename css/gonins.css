@@ -1,0 +1,61 @@
+body {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 105%;
+    padding-top: 50px;
+}
+
+#brand {
+    padding-left: 20px;
+}
+
+#main-photo {
+    padding-top: 20px;
+}
+
+#main-text {
+    text-align: justify;
+}
+
+#calendar {
+    margin-top: 20px;
+}
+#calendar-head {
+    background-color: #EEEEEE;
+}
+
+.thumbnails {
+    margin-left: 0;
+}
+
+.galery-modal-body {
+    max-height: 1024px;
+}
+
+.galery-modal {
+    width: 960px;
+    margin-left: -480px;
+}
+
+#map {
+    border: 1px solid #000000;
+}
+
+#map-zoom-button {
+    position: relative;
+    left: 10px;
+    top: -40px;
+}
+
+#mascot {
+    position: absolute;
+    visibility: hidden;
+}
+
+#hot-corner {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 15px;
+    height: 15px;
+    border-top-left-radius: 100%;
+}
