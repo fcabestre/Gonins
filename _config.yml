@@ -3,4 +3,4 @@ markdown: redcarpet
 pygments: true
 encoding: utf-8
 timezone: Europe/Paris
-exclude: ['old']
+exclude: ['old', 'bootstrap', 'README.md', 'Site.iml']
