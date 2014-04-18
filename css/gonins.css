@@ -1,7 +1,11 @@
+.container {
+    max-width: 940px;
+}
+
 body {
     font-family: 'Istok Web', sans-serif;
-    font-size: 105%;
-    padding-top: 50px;
+    font-size: 150%;
+    padding-top: 30px;
 }
 
 #main-photo {
@@ -15,6 +19,7 @@ body {
 #calendar {
     margin-top: 20px;
 }
+
 #calendar-head {
     background-color: #EEEEEE;
 }
