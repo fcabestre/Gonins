@@ -1,0 +1,46 @@
+---
+layout: gonins
+---
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="page-header">
+            <h1>La Saison
+                <small>2013-2014</small>
+            </h1>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <img src="img/Pre-930x118.jpg" alt="Le pré" class="img-thumbnail img-responsive"/>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="table-responsive">
+            <table id="calendar" class="table table-bordered table-condensed">
+                <thead id="calendar-head">
+                <tr>
+                    <th>Date</th>
+                    <th>Équipe</th>
+                    <th>Stade</th>
+                    <th>Responsable</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for match in site.data.matchs %}
+                <tr>
+                    <td>{{ match.date }}</td>
+                    <td>{{ match.equipe }}</td>
+                    <td>{{ match.stade }}</td>
+                    <td>{{ match.responsable }}</td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
