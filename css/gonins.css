@@ -37,14 +37,10 @@ body {
     margin-left: -480px;
 }
 
-#map {
-    border: 1px solid #000000;
-}
-
 #map-zoom-button {
     position: relative;
     left: 10px;
-    top: -40px;
+    top: -130px;
 }
 
 #mascot {
@@ -59,4 +55,22 @@ body {
     width: 15px;
     height: 15px;
     border-top-left-radius: 100%;
+}
+
+.map-iframe        {
+    position: relative;
+}
+
+.map-iframe .ratio {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.map-iframe iframe {
+    border: 1px solid #000000;
+    position: absolute;
+    top: 3px;
+    width: 96%;
+    height: 84%;
 }
