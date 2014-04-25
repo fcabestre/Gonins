@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08e56c51-1d65-4e3e-bc0a-5ce15ce2ff1f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Plan.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/gonins.css" afterPath="$PROJECT_DIR$/css/gonins.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/gonins.html" afterPath="$PROJECT_DIR$/_layouts/gonins.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calendrier.html" afterPath="$PROJECT_DIR$/calendrier.html" />
     </list>
     <ignored path="Site.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,19 +64,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="galerie.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/old/partials/galerie.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="41" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.464684">
+            <state line="25" column="41" selection-start="1000" selection-end="1000" vertical-scroll-proportion="-15.625">
               <folding />
             </state>
           </provider>
@@ -140,7 +130,16 @@
       <file leaf-file-name="gonins.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/gonins.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="33" selection-start="2209" selection-end="2209" vertical-scroll-proportion="0.0">
+            <state line="56" column="53" selection-start="2164" selection-end="2164" vertical-scroll-proportion="-26.666666">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calendrier.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/calendrier.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="23" selection-start="448" selection-end="448" vertical-scroll-proportion="0.40243903">
               <folding />
             </state>
           </provider>
@@ -183,12 +182,12 @@
         <option value="$PROJECT_DIR$/old/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_data/matchs.yml" />
-        <option value="$PROJECT_DIR$/calendrier.html" />
         <option value="$PROJECT_DIR$/old/partials/contact.html" />
         <option value="$PROJECT_DIR$/bootstrap/js/responsive-iframes.js" />
-        <option value="$PROJECT_DIR$/_layouts/gonins.html" />
         <option value="$PROJECT_DIR$/css/gonins.css" />
         <option value="$PROJECT_DIR$/contact.html" />
+        <option value="$PROJECT_DIR$/_layouts/gonins.html" />
+        <option value="$PROJECT_DIR$/calendrier.html" />
       </list>
     </option>
   </component>
@@ -284,10 +283,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane />
       </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
@@ -300,17 +310,20 @@
         </subPane>
         <subPane subId="All" />
       </pane>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="160" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="170" />
     <property name="project.structure.proportion" value="0.15" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="170" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="160" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$USER_HOME$/AngularJSDemos/app/controllers" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="175" />
@@ -331,8 +344,8 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="reference.settings.ide.settings.spelling" />
-    <property name="DefaultHtmlFileTemplate" value="Html" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="Html" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -403,6 +416,17 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -426,17 +450,6 @@
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -546,11 +559,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/assets/bootstrap.css.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/old/css/gonins.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -593,7 +601,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="94" selection-start="2075" selection-end="2075" vertical-scroll-proportion="0.0" />
+        <state line="46" column="94" selection-start="2075" selection-end="2075" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/assets/bootstrap.css">
@@ -606,26 +616,33 @@
         <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/gonins.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="33" selection-start="2209" selection-end="2209" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/Transparent-100x100.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/gonins.css">
+    <entry file="file://$PROJECT_DIR$/_layouts/gonins.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="11" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
+        <state line="56" column="53" selection-start="2164" selection-end="2164" vertical-scroll-proportion="-26.666666">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/gonins.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="11" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="41" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.464684">
+        <state line="25" column="41" selection-start="1000" selection-end="1000" vertical-scroll-proportion="-15.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calendrier.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="23" selection-start="448" selection-end="448" vertical-scroll-proportion="0.40243903">
           <folding />
         </state>
       </provider>
