@@ -16,6 +16,10 @@ body {
     text-align: justify;
 }
 
+.posts {
+    text-align: justify;
+}
+
 #calendar {
     margin-top: 20px;
 }
