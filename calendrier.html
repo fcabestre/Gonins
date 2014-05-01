@@ -34,7 +34,12 @@ layout: gonins
                 {% for match in site.data.matchs %}
                 <tr>
                     <td>{{ match.date }}</td>
+                    {% if match.post %}
+                    {% capture post %}{{ match.post }}{% endcapture %}
+                    <td><a href="{{ site.baseurl }}{{ post }}">{{ match.equipe }}</a></td>
+                    {% else %}
                     <td>{{ match.equipe }}</td>
+                    {% endif %}
                     <td>{{ match.stade }}</td>
                     <td>{{ match.responsable }}</td>
                 </tr>
