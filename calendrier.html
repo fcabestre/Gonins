@@ -36,7 +36,7 @@ layout: gonins
                     <td>{{ match.date }}</td>
                     {% if match.post %}
                     {% capture post %}{{ match.post }}{% endcapture %}
-                    <td><a href="{{ site.baseurl }}{{ post }}">{{ match.equipe }}</a></td>
+                    <td><a href="{{ site.baseurl }}/{{ post }}">{{ match.equipe }}</a></td>
                     {% else %}
                     <td>{{ match.equipe }}</td>
                     {% endif %}

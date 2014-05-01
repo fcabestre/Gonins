@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08e56c51-1d65-4e3e-bc0a-5ce15ce2ff1f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/posts.html" afterPath="$PROJECT_DIR$/_layouts/posts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calendrier.html" afterPath="$PROJECT_DIR$/calendrier.html" />
     </list>
     <ignored path="Site.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,19 +63,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2013-11-30-la-victoire-en-chantant.textile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2013-11-30-la-victoire-en-chantant.textile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="8" selection-start="1183" selection-end="1183" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="gazette.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_site/gazette.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="28.125">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -89,10 +81,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="posts.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="calendrier.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/calendrier.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="52" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.66822976">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="posts.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/posts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="37" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.6154748">
+            <state line="35" column="37" selection-start="1046" selection-end="1046" vertical-scroll-proportion="-21.875">
               <folding />
             </state>
           </provider>
@@ -173,7 +174,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/calendrier.html" />
         <option value="$PROJECT_DIR$/_data/matchs.yml" />
         <option value="$PROJECT_DIR$/_posts/2013-12-04-une-defaite-au-gout-amer.textile" />
         <option value="$PROJECT_DIR$/_posts/2014-03-01-le-gonin-ne-s-est-pas-echappe.textile" />
@@ -188,6 +188,7 @@
         <option value="$PROJECT_DIR$/_posts/2014-01-18-pas-a-rougir-de-la-defaite.textile" />
         <option value="$PROJECT_DIR$/_posts/2013-11-30-la-victoire-en-chantant.textile" />
         <option value="$PROJECT_DIR$/_layouts/posts.html" />
+        <option value="$PROJECT_DIR$/calendrier.html" />
       </list>
     </option>
   </component>
@@ -223,9 +224,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -302,6 +300,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -318,12 +319,12 @@
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="160" />
-    <property name="project.structure.proportion" value="0.15" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="170" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="160" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="160" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$USER_HOME$/AngularJSDemos/app/controllers" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="175" />
@@ -344,8 +345,8 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="preferences.sourceCode.General" />
-    <property name="project.structure.side.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -416,17 +417,6 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -453,6 +443,17 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <list size="0" />
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -470,7 +471,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-6" width="1617" height="1058" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -484,7 +485,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24952137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24122527" sideWeight="0.96792036" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24122527" sideWeight="0.96792036" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -572,11 +573,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calendrier.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="61" selection-start="1135" selection-end="1135" vertical-scroll-proportion="-23.75" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2014-01-23-vaincus-mais-de-boue.textile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="136" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0" />
@@ -595,6 +591,32 @@
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="21" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2013-11-30-la-victoire-en-chantant.textile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="8" selection-start="1183" selection-end="1183" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/gazette.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2013-12-04-une-defaite-au-gout-amer.textile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="2925" selection-end="2925" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-01-18-pas-a-rougir-de-la-defaite.textile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="111" selection-start="797" selection-end="797" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -619,28 +641,9 @@
         <state line="62" column="0" selection-start="6490" selection-end="6490" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2013-12-04-une-defaite-au-gout-amer.textile">
+    <entry file="file://$PROJECT_DIR$/_layouts/posts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="2925" selection-end="2925" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2014-01-18-pas-a-rougir-de-la-defaite.textile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="111" selection-start="797" selection-end="797" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2013-11-30-la-victoire-en-chantant.textile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="8" selection-start="1183" selection-end="1183" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_site/gazette.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="28.125">
+        <state line="35" column="37" selection-start="1046" selection-end="1046" vertical-scroll-proportion="-21.875">
           <folding />
         </state>
       </provider>
@@ -652,9 +655,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/posts.html">
+    <entry file="file://$PROJECT_DIR$/calendrier.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="37" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.6154748">
+        <state line="38" column="52" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.66822976">
           <folding />
         </state>
       </provider>
