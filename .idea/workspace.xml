@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08e56c51-1d65-4e3e-bc0a-5ce15ce2ff1f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/gonins.html" afterPath="$PROJECT_DIR$/_layouts/gonins.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calendrier.html" afterPath="$PROJECT_DIR$/calendrier.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazette.html" afterPath="$PROJECT_DIR$/gazette.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="Site.iws" />
@@ -68,16 +70,16 @@
       <file leaf-file-name="gonins.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/gonins.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="16" selection-start="258" selection-end="258" vertical-scroll-proportion="-2.0270271">
+            <state line="43" column="43" selection-start="2020" selection-end="2020" vertical-scroll-proportion="-26.875">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="49" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.6692607">
+            <state line="38" column="63" selection-start="1816" selection-end="1816" vertical-scroll-proportion="-6.972973">
               <folding />
             </state>
           </provider>
@@ -86,7 +88,16 @@
       <file leaf-file-name="_config.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
+            <state line="6" column="10" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="posts.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/posts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -95,7 +106,7 @@
       <file leaf-file-name="sur-un-terrain-il-n-y-a-pas-d-amis.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_site/2014/04/17/sur-un-terrain-il-n-y-a-pas-d-amis.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="0" selection-start="8710" selection-end="8710" vertical-scroll-proportion="-32.416668">
+            <state line="41" column="54" selection-start="1804" selection-end="1804" vertical-scroll-proportion="-25.625">
               <folding />
             </state>
           </provider>
@@ -122,16 +133,16 @@
       <file leaf-file-name="gazette.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gazette.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="46" selection-start="516" selection-end="516" vertical-scroll-proportion="-15.625">
+            <state line="17" column="75" selection-start="362" selection-end="362" vertical-scroll-proportion="-10.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="contact.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="18" selection-start="508" selection-end="508" vertical-scroll-proportion="-3.337838">
+            <state line="23" column="32" selection-start="697" selection-end="697" vertical-scroll-proportion="0.4269802">
               <folding />
             </state>
           </provider>
@@ -140,16 +151,7 @@
       <file leaf-file-name="calendrier.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calendrier.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="18" selection-start="287" selection-end="287" vertical-scroll-proportion="-2.1756756">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2014-04-17-sur-un-terrain-il-n-y-a-pas-d-amis.textile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2014-04-17-sur-un-terrain-il-n-y-a-pas-d-amis.textile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="22" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0">
+            <state line="16" column="32" selection-start="301" selection-end="301" vertical-scroll-proportion="-3.1216216">
               <folding />
             </state>
           </provider>
@@ -175,7 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2014-02-08-les-lougarous-d'Auterive-en-cage-!!!.textile" />
         <option value="$PROJECT_DIR$/_posts/2014-02-08-les-lougarous-d-auterive-en-cage.textile" />
         <option value="$PROJECT_DIR$/_posts/2014-04-07-au-bout-du....textile" />
         <option value="$PROJECT_DIR$/_posts/2014-04-12-touwin-or-not-touwin-?.textile" />
@@ -190,6 +191,7 @@
         <option value="$PROJECT_DIR$/_layouts/gonins.html" />
         <option value="$PROJECT_DIR$/calendrier.html" />
         <option value="$PROJECT_DIR$/contact.html" />
+        <option value="$PROJECT_DIR$/gazette.html" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -543,7 +545,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1615" height="1026" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -558,7 +560,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24952137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24153355" sideWeight="0.67201835" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24153355" sideWeight="0.67201835" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -631,12 +633,11 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2014-01-23-vaincus-mais-de-boue.textile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="8" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2014-02-08-les-lougarous-d-auterive-en-cage.textile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="29" selection-start="872" selection-end="872" vertical-scroll-proportion="0.0" />
@@ -676,7 +677,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_site/2014/04/17/sur-un-terrain-il-n-y-a-pas-d-amis.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="0" selection-start="8710" selection-end="8710" vertical-scroll-proportion="-32.416668">
+        <state line="41" column="54" selection-start="1804" selection-end="1804" vertical-scroll-proportion="-25.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="10" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/gonins.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="43" selection-start="2020" selection-end="2020" vertical-scroll-proportion="-26.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/posts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calendrier.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="32" selection-start="301" selection-end="301" vertical-scroll-proportion="-3.1216216">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazette.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="75" selection-start="362" selection-end="362" vertical-scroll-proportion="-10.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="63" selection-start="1816" selection-end="1816" vertical-scroll-proportion="-6.972973">
           <folding />
         </state>
       </provider>
@@ -686,44 +729,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gazette.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="46" selection-start="516" selection-end="516" vertical-scroll-proportion="-15.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/gonins.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="16" selection-start="258" selection-end="258" vertical-scroll-proportion="-2.0270271">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calendrier.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="18" selection-start="287" selection-end="287" vertical-scroll-proportion="-2.1756756">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="18" selection-start="508" selection-end="508" vertical-scroll-proportion="-3.337838">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="49" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.6692607">
+        <state line="23" column="32" selection-start="697" selection-end="697" vertical-scroll-proportion="0.4269802">
           <folding />
         </state>
       </provider>
