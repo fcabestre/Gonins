@@ -17,7 +17,7 @@ layout: gonins
             <dt>
                 [{{ post.date | date: '%d.%m.%Y' }}] <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
             </dt>
-            <dd class="posts">{{ post.excerpt }}</dd>
+            <dd class="posts">{{ post.excerpt }}<a href="{{ site.baseurl }}{{ post.url }}"> [...]</a><p></dd>
             {% endfor %}
         </dl>
     </div>
