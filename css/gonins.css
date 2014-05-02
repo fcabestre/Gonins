@@ -41,8 +41,12 @@ body {
     margin-left: -480px;
 }
 
-#map-zoom-button {
+.map-image button {
     position: relative;
     left: 8px;
     top: -30px;
+}
+
+.map-image img {
+    border: 1px solid #000000;
 }
