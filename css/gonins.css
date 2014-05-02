@@ -46,21 +46,3 @@ body {
     left: 8px;
     top: -30px;
 }
-
-#mascot {
-    position: absolute;
-    visibility: hidden;
-}
-
-#hot-corner {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    width: 15px;
-    height: 15px;
-    border-top-left-radius: 100%;
-}
-
-.map-iframe img {
-    border: 1px solid #000000;
-}
