@@ -90,12 +90,6 @@
         "responsable":"Nico"
     },
     {
-        "date":"17/05/2014",
-        "equipe":"L'Épine Rose",
-        "stade":"Montaudran",
-        "responsable":"Christophe"
-    },
-    {
         "date":"23/05/2014",
         "equipe":"All Wines",
         "stade":"Robert Barran - Pech David ",
@@ -114,9 +108,9 @@
         "responsable":"Thierry"
     },
     {
-        "date":"20/06/2014",
-        "equipe":"Ajaja",
-        "stade":"Tournefeuille",
-        "responsable":"Thierry"
+        "date":"21/06/2014",
+        "equipe":"Le Cagire d'Aspet",
+        "stade":"Aspet",
+        "responsable":"À définir"
     }
 ]

@@ -1,11 +1,11 @@
-body {
-    font-family: 'Istok Web', sans-serif;
-    font-size: 105%;
-    padding-top: 50px;
+.container {
+    max-width: 940px;
 }
 
-#brand {
-    padding-left: 20px;
+body {
+    font-family: 'Istok Web', sans-serif;
+    font-size: 150%;
+    padding-top: 30px;
 }
 
 #main-photo {
@@ -16,9 +16,14 @@ body {
     text-align: justify;
 }
 
+.posts {
+    text-align: justify;
+}
+
 #calendar {
     margin-top: 20px;
 }
+
 #calendar-head {
     background-color: #EEEEEE;
 }
@@ -36,26 +41,12 @@ body {
     margin-left: -480px;
 }
 
-#map {
-    border: 1px solid #000000;
-}
-
-#map-zoom-button {
+.map-image button {
     position: relative;
-    left: 10px;
-    top: -40px;
+    left: 8px;
+    top: -30px;
 }
 
-#mascot {
-    position: absolute;
-    visibility: hidden;
-}
-
-#hot-corner {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    width: 15px;
-    height: 15px;
-    border-top-left-radius: 100%;
+.map-image img {
+    border: 1px solid #000000;
 }

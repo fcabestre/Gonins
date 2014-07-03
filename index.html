@@ -1,74 +1,51 @@
-<!DOCTYPE html>
-<html lang="fr" xmlns:ng="http://angularjs.org" id="ng-app" data-ng-app="gonins">
-<head>
-    <title>Site des Gonin'Boys</title>
+---
+layout: gonins
+---
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link href="css/assets/bootstrap.min.css" media="screen" type='text/css' rel="stylesheet">
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type='text/css' rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Istok+Web' type='text/css' rel='stylesheet'>
-    <link href="css/assets/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" rel="stylesheet" />
-    <link href="css/gonins.css" rel="stylesheet">
-
-    <!--[if lte IE 8]>
-    <script type="text/javascript" src="js/assets/json3.min.js">
-        document.createElement('ng-include');
-        document.createElement('ng-pluralize');
-        document.createElement('ng-view');
-
-        // Optionally these for CSS
-        document.createElement('ng:include');
-        document.createElement('ng:pluralize');
-        document.createElement('ng:view');
-    </script>
-    <![endif]-->
-
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-42169363-2', 'free.fr');
-        ga('send', 'pageview');
-
-    </script></head>
-<body data-ng-controller="NavbarCtrl">
-
-<div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-inner">
-        <div class="container">
-            <!--<a class="brand" href="#/gonins">Gonin'Boys</a>-->
-            <ul class="nav">
-                <li class="{{isActive[0]}}"><a id="brand" class="brand" href="#/gonins">Vestiaire</a></li>
-                <li class="{{isActive[1]}}"><a href="#/calendrier">Calendrier</a></li>
-                <li class="{{isActive[2]}}"><a href="#/galerie">Photos</a></li>
-                <li class="{{isActive[3]}}"><a href="#/contact">Contact</a></li>
-            </ul>
+<div class="row">
+    <div class="col-md-12">
+        <div class="page-header">
+            <h1>Les Gonin'Boys</h1>
         </div>
     </div>
 </div>
 
-<div class="container">
-    <div data-ng-view=""></div>
+<div class="row">
+    <div id="main-text" class="col-md-12">
+        <p>Cinquante mecs entre vingt-cinq et soixante-dix ans (pardon Jeannot) qui, depuis plus de 25 ans,
+            gambadent joyeusement à la poursuite d’un ballon ovale, sur un terrain coincé quelque part entre les
+            immeubles de Montaudran, ça a quelque chose de… je ne sais pas.
+
+        <p>Couillon, peut-être.
+
+        <p>Mais de ce genre de couillonnerie qui force le respect.
+
+        <p>Ça fait plus de 25 ans que le club existe avec le même noyau, le même mot d’ordre, le même esprit :
+            se faire plaisir. Et se faire plaisir, comme le dit Tix-l’entraîneur,
+            ça veut aussi dire courir,
+            souffler, souffrir, soutenir, tenir, continuer. Ça veut dire jouer au rugby – ce sport étrange,
+            quelque part entre guerre des clans et partie d’échec à grands coups de mêlées, qui apprend d’abord
+            à respecter l’adversaire pour mieux se respecter soi.
+
+        <p>Ça fait plus de 25 ans, et on court toujours. Même si on n’est plus des lapereaux de l’année, le
+            rugby nous garde jeunes. Et si on est vieux, c’est juste comme dans «vieux copains» – et ça, ça fait
+            toute la différence.
+
+        <p>Deux entraînements par semaine, une quinzaine de matches dans l’année ; un week-end ski annuel,
+            quelques bons gueuletons et autres festivités ; et, tous les deux ans, une tournée internationale
+            (bon, d’accord, un voyage) : les Gonins, c’est à la fois un club, un groupe de copains et une
+            famille.
+
+        <p>Pour en savoir plus, il faut <a href="{{ site.baseurl }}/contact.html">nous rencontrer</a>. Sur le terrain, évidemment.
+
+        <p>On prend le coup d’envoi.
+    </div>
 </div>
 
-<div id="mascot" >
-    <img src="img/mascotte.png"/>
+<div id="main-photo" class="row">
+    <div class="col-md-12">
+        <a href="{{ site.baseurl }}/img/Gonins-940x326.jpg" title="Les Gonin'Boys" class="thumbnail">
+            <img src="{{ site.baseurl }}/img/Gonins-940x326.jpg" alt="Les Gonin'Boys">
+        </a>
+    </div>
 </div>
-<div id="hot-corner" data-ng-mouseenter="mascot()"></div>
-
-<script src="js/assets/jquery.min.js"></script>
-<script src="js/assets/bootstrap.min.js"></script>
-<script src="js/assets/angular.min.js"></script>
-<script src="js/assets/jquery.fancybox.pack.js?v=2.1.5"></script>
-<script src="js/routes.js"></script>
-<script src="js/directives.js"></script>
-<script src="js/controllers.js"></script>
-<script src="js/factories.js"></script>
-<script src="js/init.js"></script>
-</body>
-</html>
-

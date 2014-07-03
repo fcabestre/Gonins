@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+    <title>Site des Gonin'Boys</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link href="{{ site.baseurl }}/css/assets/bootstrap.css" media="screen" type='text/css' rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type='text/css'
+          rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Istok+Web' type='text/css' rel='stylesheet'>
+    <link href="{{ site.baseurl }}/css/gonins.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#navbar-gonins">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{{ site.baseurl }}/index.html">Vestiaire</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-gonins">
+            <ul class="nav navbar-nav">
+                <li><a href="{{ site.baseurl }}/gazette.html">Gazette</a></li>
+                <li><a href="{{ site.baseurl }}/calendrier.html">Calendrier</a></li>
+                <li><a href="{{ site.baseurl }}/galerie.html">Photos</a></li>
+                <li><a href="{{ site.baseurl }}/contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div>
+        {{ content }}
+    </div>
+</div>
+
+<script src="{{ site.baseurl }}/js/assets/jquery.js"></script>
+<script src="{{ site.baseurl }}/js/assets/bootstrap.js"></script>
+
+</body>
+</html>
+
