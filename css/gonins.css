@@ -5,11 +5,15 @@
 body {
     font-family: 'Istok Web', sans-serif;
     font-size: 150%;
-    padding-top: 30px;
+    padding-top: 2em;
 }
 
 #main-photo {
-    padding-top: 20px;
+    padding-top: 1em;
+}
+
+#disqus_thread {
+    padding-top: 1.5em;
 }
 
 #main-text {
@@ -20,8 +24,13 @@ body {
     text-align: justify;
 }
 
+.posts-photo {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
 #calendar {
-    margin-top: 20px;
+    margin-top: 1em;
 }
 
 #calendar-head {
@@ -30,15 +39,6 @@ body {
 
 .thumbnails {
     margin-left: 0;
-}
-
-.galery-modal-body {
-    max-height: 1024px;
-}
-
-.galery-modal {
-    width: 960px;
-    margin-left: -480px;
 }
 
 .map-image button {
