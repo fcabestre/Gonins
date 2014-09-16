@@ -33,6 +33,10 @@ body {
     margin-top: 1em;
 }
 
+#calendar-link {
+    margin-top: 1em;
+}
+
 #calendar-head {
     background-color: #EEEEEE;
 }
