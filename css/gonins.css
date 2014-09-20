@@ -29,6 +29,16 @@ body {
     padding-bottom: 1em;
 }
 
+.posts-photo-no-bottom-padding {
+    padding-top: 1em;
+}
+
+.posts-photo-no-bottom-padding button {
+    position: relative;
+    left: 10px;
+    top: -75px;
+}
+
 #calendar {
     margin-top: 1em;
 }
