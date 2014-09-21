@@ -1,0 +1,8 @@
+name: Site des Gonin's Boys
+pygments: true
+encoding: utf-8
+timezone: Europe/Paris
+exclude: ['old', 'bootstrap', 'README.md', 'Site.iml']
+baseurl: ''
+redcloth:
+  fold_lines: false
