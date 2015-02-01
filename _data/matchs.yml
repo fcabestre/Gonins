@@ -51,11 +51,6 @@
    stade: Auterive
    responsable: Thierry
 
- - date: 04/02/2015
-   equipe: La Dépèche
-   stade: Montaudran
-   responsable: Fred F.
-
  - date: 04/03/2015
    equipe: Les Amis de Midi-Pyrénées
    stade: Montaudran
@@ -70,6 +65,11 @@
    equipe: Arle XV
    stade: Montaudran
    responsable: Alain
+
+ - date: 29/04/2015
+   equipe: La Dépêche
+   stade: Montaudran
+   responsable: Fred F.
 
  - date: 13/05/2015
    equipe: Touwins
